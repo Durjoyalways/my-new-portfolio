@@ -1,0 +1,129 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.new-bg{
+    background-color: #FFF8F3;
+}
+.dark-1{
+    color: #1E1E1E;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+/* header */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.maryr-nam{
+    font-size: 45px;
+    font-weight: 800;
+   
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+nav ul li{
+   margin-right: 50px;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    
+    
+}
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.bannerer-greeting{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.bannerer-manuser-nam{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.bannerer-paragraph{
+   font-weight:600 ;
+   font-size: 18px;
+
+}
+.bannerer-profile-pic{
+    width:584px;
+    height: 676px;
+}
+.banner{
+    display: flex;
+    justify-content:space-between ;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+/* section type */
+.section-title{
+    font: size 35px; 
+    font-weight: bold;
+    color: #000000;
+}
+.sectioner-description{
+    font-size: 10px;
+    color: #757575;
+}
+
+/* main stylers */
+
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+/* about style */
+.about{
+  border-radius: 10px;
+  
+  padding: 130px 150px;
+text-align: center;
+margin-top: 130px;
+}
+.item-descriptionfont{
+    font-weight: bold;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
